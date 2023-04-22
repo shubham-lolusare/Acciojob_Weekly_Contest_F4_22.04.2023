@@ -1,6 +1,11 @@
-import { useRouteError } from "react-router-dom";
+// In case of any errors in the route, the page will be redirected automatically to this page
+// and will show the error that has occured
+
+import { useNavigate, useRouteError } from "react-router-dom";
 
 export default function ErrorPage() {
+  let navigate = useNavigate();
+
   const error = useRouteError();
   console.error(error);
 
@@ -23,6 +28,14 @@ export default function ErrorPage() {
         <p className="text-2xl">
           <i>{error.statusText || error.message}</i>
         </p>
+        <button
+          className="p-2 bg-slate-800 text-white"
+          onClick={() => {
+            navigate("/");
+          }}
+        >
+          Go To Login Page
+        </button>
       </div>
       <div>
         <svg

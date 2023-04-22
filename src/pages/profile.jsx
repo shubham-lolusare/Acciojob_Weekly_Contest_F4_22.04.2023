@@ -1,3 +1,6 @@
+// The profile page will fetch the data wrt id that is stored in local storage using the loader function
+// Note: loader function is used to load the data on routes before rendering the route.
+
 import { useEffect } from "react";
 import { useNavigate, useLoaderData } from "react-router-dom";
 
@@ -14,12 +17,14 @@ export default function Profile() {
   let id = localStorage.getItem("id");
   let data = useLoaderData();
 
+  // If there is no id present in local storage then the user will automatically redirected to login page
   useEffect(() => {
     if (id === null) {
       navigate("/");
     }
   });
 
+  // redndering the fetched user data wrt the id
   return (
     <div className="text-slate-800 font-[500] w-[99.9%] bg-gradient-to-br from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
       <div className="w-full flex flex-col pl-48 pr-48 pt-12 pb-12 backdrop-blur-md bg-white/30 divide-y-2 divide-slate-800 md:p-8 tall:p-8 xs:p-4">

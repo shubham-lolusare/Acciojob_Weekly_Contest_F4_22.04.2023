@@ -1,3 +1,7 @@
+// We are using the hash router instead of browser router because it is not supported by
+// Github pages. There are two routes the Login page which is the landing page and the
+// Profile page which will be navigated after the success full suthentication
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import {

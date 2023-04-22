@@ -1,7 +1,9 @@
+/* TailwindCSS is added here */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* formattinf the autofill state of inputs */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -12,6 +14,7 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 
+/* changing the default scroll bar view */
 body {
   -ms-overflow-style: none;
   scrollbar-width: 0px;

@@ -1,5 +1,11 @@
+// This is the login page
+// This page will fetch the data and check if the entered user name and password is there in dummyJSON serve
+// If not it will show the appropriate error on the login section
+// After successful authentication it will save the id and token to localstorage for profile page reference and
+// it will redirect us to the profile page
+
 import { useState } from "react";
-import { useNavigate, useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
   let navigate = useNavigate();

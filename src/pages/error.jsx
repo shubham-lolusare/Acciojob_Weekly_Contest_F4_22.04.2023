@@ -29,7 +29,7 @@ export default function ErrorPage() {
           <i>{error.statusText || error.message}</i>
         </p>
         <button
-          className="p-2 bg-slate-800 text-white"
+          className="p-2 bg-slate-800 text-white w-[200px] rounded-lg"
           onClick={() => {
             navigate("/");
           }}

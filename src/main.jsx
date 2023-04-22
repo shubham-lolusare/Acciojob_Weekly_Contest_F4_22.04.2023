@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
   Route,
   createRoutesFromElements,
@@ -13,7 +13,7 @@ import App from "./pages/app";
 import "./index.css";
 import { loader as profileLoader } from "./pages/profile";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />} errorElement={<ErrorPage />}>
       <Route index element={<Login />} />

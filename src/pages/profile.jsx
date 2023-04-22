@@ -28,7 +28,7 @@ export default function Profile() {
         {/* personal information */}
         <div name="personal-info" className="text-xl xs:text-base">
           <h2 className="text-2xl pt-8 xs:text-xl">
-            <img src="/person48.png" alt="person" className="inline-block" />{" "}
+            <img src="./person48.png" alt="person" className="inline-block" />{" "}
             Personal information
           </h2>
           <div className="flex gap-16 items-start pt-8 pb-8 sm:flex-col sm:gap-0 sm:pb-0 md:gap-4">
@@ -80,7 +80,7 @@ export default function Profile() {
         {/* contact information */}
         <div name="contact-info" className="text-xl xs:text-base">
           <h2 className="text-2xl pt-8 xs:text-xl">
-            <img src="/contact48.png" alt="person" className="inline-block" />{" "}
+            <img src="./contact48.png" alt="person" className="inline-block" />{" "}
             Contact information
           </h2>
           <div className="flex gap-16 items-start pt-8 pb-8 sm:flex-col sm:gap-0 sm:pb-4 md:gap-4">
@@ -112,7 +112,7 @@ export default function Profile() {
         {/* Company Details*/}
         <div name="company-details" className="text-xl xs:text-base">
           <h2 className="text-2xl pt-8 xs:text-xl">
-            <img src="/company.png" alt="person" className="inline-block" />{" "}
+            <img src="./company.png" alt="person" className="inline-block" />{" "}
             Company Details
           </h2>
           <div className="flex gap-16 items-start pt-8 pb-8 sm:flex-col sm:gap-0 sm:pb-4 md:gap-4">
@@ -146,8 +146,8 @@ export default function Profile() {
         {/* Bank details */}
         <div name="bank-details" className="text-xl xs:text-base">
           <h2 className="text-2xl pt-8 xs:text-xl">
-            <img src="/bank48.png" alt="person" className="inline-block" /> Bank
-            Details
+            <img src="./bank48.png" alt="person" className="inline-block" />{" "}
+            Bank Details
           </h2>
           <div className="flex gap-16 items-start pt-8 pb-8 sm:flex-col sm:gap-0 sm:pb-4 md:gap-4">
             <ul role="list" className="list-inside list-image-[url(/bank.png)]">
@@ -171,7 +171,7 @@ export default function Profile() {
         {/* Network Details */}
         <div name="network-details" className="text-xl xs:text-base">
           <h2 className="text-2xl pt-8 xs:text-xl">
-            <img src="/network48.png" alt="person" className="inline-block" />{" "}
+            <img src="./network48.png" alt="person" className="inline-block" />{" "}
             Network Details
           </h2>
           <div className="flex gap-16 items-start pt-8 pb-8 sm:flex-col sm:gap-0 sm:pb-4 md:gap-4">
@@ -204,7 +204,7 @@ export default function Profile() {
         {/* Account Details */}
         <div name="network-details" className="text-xl xs:text-base">
           <h2 className="text-2xl pt-8 xs:text-xl">
-            <img src="/account48.png" alt="person" className="inline-block" />{" "}
+            <img src="./account48.png" alt="person" className="inline-block" />{" "}
             Account Details
           </h2>
           <div className="flex gap-16 justify-between pt-8 pb-8 sm:flex-col sm:gap-0 sm:pb-4 md:gap-4">

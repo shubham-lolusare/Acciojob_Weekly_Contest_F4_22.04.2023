@@ -89,7 +89,7 @@ export default function Login() {
           {"  "}
           {loading && (
             <img
-              src="/loading.png"
+              src="./loading.png"
               width="50px"
               className="inline-block animate-spin ml-8"
             />
@@ -111,7 +111,7 @@ export default function Login() {
           </div>
           <div>
             <a
-              href="https://github.com/shubham-lolusare/Acciojob_F4_Weekly_Contest_2_22.04.2023"
+              href="https://github.com/shubham-lolusare/Acciojob_Weekly_Contest_F4_22.04.2023"
               target="_blank"
             >
               GitHub{" "}

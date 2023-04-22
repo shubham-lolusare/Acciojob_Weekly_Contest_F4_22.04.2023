@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: darkred;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: 0px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
